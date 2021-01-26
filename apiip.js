@@ -8,6 +8,6 @@ function httpGetAsync(url, callback) {
   xmlHttp.send(null);
 }
 
-var url = "https://ipgeolocation.abstractapi.com/v1/?api_key=19138c11a3c2444fb575008588367267&ip_address=95.239.55.131"
+var url = "https://ipgeolocation.abstractapi.com/v1/?api_key=19138c11a3c2444fb575008588367267&ip_address="
 
 httpGetAsync(url)
